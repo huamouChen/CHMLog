@@ -14,6 +14,6 @@
 }
 
 + (void)chm_logFunction {
-    NSLog(@"__function__ name is %@", __function__);
+    NSLog(@"__function__ name is %s", __func__);
 }
 @end

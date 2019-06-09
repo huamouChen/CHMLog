@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CHMLog"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A test frameword."
 
   # This description is used to generate tags and improve search results.
@@ -26,6 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
         This is a test Framework.
+        Add a new method
                    DESC
 
   spec.homepage     = "https://github.com/huamouChen/CHMLog"
