@@ -12,4 +12,8 @@
 + (void)chm_logWithString:(NSString *)string {
     NSLog(@"This is log: %@", string);
 }
+
++ (void)chm_logFunction {
+    NSLog(@"__function__ name is %@", __function__);
+}
 @end

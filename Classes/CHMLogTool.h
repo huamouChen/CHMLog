@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CHMLogTool : NSObject
 + (void)chm_logWithString:(NSString *)string;
++ (void)chm_logFunction;
 @end
 
 NS_ASSUME_NONNULL_END
